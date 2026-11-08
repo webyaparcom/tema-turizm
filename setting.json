@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Konaklama ve kahvaltı; görseller temsilîdir.",
+    "en": "Stay and breakfast; images are representative.",
+    "ar": "إقامة وفطور؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "otel, tatil, konaklama",
+    "en": "hotel, vacation, stay",
+    "ar": "فندق، إجازة، إقامة"
+  },
+  "category": "Kurumsal",
+  "name": "Otel Sahil",
+  "domain": "turizm.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito-sans",
+    "heading": "dm-serif-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#0479BA",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "7px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "17px",
+    "--mx-radius-xl": "23px"
+  },
+  "icon": "icon.png"
+}

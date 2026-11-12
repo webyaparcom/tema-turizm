@@ -27,9 +27,9 @@
   "index": 0,
   "url": "",
   "text": {
-    "tr": "<h2>Misyonumuz</h2>\n<p>Üretimi, net fiyatı ve zamanında teslimi sunmak.</p>",
-    "en": "<h2>Our mission</h2>\n<p>To offer production, clear pricing and on-time delivery.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الإنتاج والسعر الواضح والتسليم في الوقت.</p>"
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misafirlerimizi sakin, temiz ve sıcak bir ortamda ağırlamak.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To host our guests in a calm, clean and welcoming setting.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>أن نستضيف ضيوفنا في أجواء هادئة ونظيفة ودافئة.</p>"
   },
   "title": {
     "tr": "Misyon",
@@ -37,7 +37,7 @@
     "ar": "المهمة"
   },
   "date": "2026-11-05T18:57:29.509Z",
-  "update": "2026-11-05T23:44:49.142Z",
+  "update": "2026-11-12T07:36:59.434Z",
   "sablonIzi": "a8a6ac234dced5af",
   "sablonIziDil": {
     "en": "3f5f6c628dec679f",

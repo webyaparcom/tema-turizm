@@ -776,7 +776,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1488,9 +1493,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Rezervasyon",
+          "en": "Book now",
+          "ar": "احجز الآن"
         },
         "cta_url": "teklif-al"
       },
@@ -1543,30 +1548,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Otel & turizm",
-          "en": "Hotel & tourism",
-          "ar": "فندق وسياحة"
+          "tr": "Otel ve konaklama",
+          "en": "Hotel & stay",
+          "ar": "فندق وإقامة"
         },
         "title": {
           "tr": "Odaya, denizin sesi",
-          "en": "In the room, the sea sounds",
+          "en": "In the room, the sound of the sea",
           "ar": "في الغرفة، صوت البحر"
         },
         "metin": {
-          "tr": "Otel Sahil, konaklama ve kahvaltı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Otel Sahil offers stay and breakfast. Images are representative and text is fictional.",
-          "ar": "يقدم فندق ساحل إقامة وفطور. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Otel Sahil; sakin odalar, bahçede havuz ve yerel ürünlerle kahvaltı sunan kurgusal bir otel demosudur. Tarihinizi seçip rezervasyon talebi bırakın.",
+          "en": "Otel Sahil is a fictional hotel demo with quiet rooms, a garden pool and a local breakfast. Pick your dates and leave a booking request.",
+          "ar": "أوتيل ساحل عرض تجريبي افتراضي لفندق بغرف هادئة ومسبح في الحديقة وفطور محلي. اختر تواريخك واترك طلب حجز."
         },
         "cta1": {
-          "tr": "Odalar",
-          "en": "Rooms",
-          "ar": "غرف"
+          "tr": "Odalarımız",
+          "en": "Our rooms",
+          "ar": "غرفنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Rezervasyon",
-          "en": "Reservation",
-          "ar": "حجز"
+          "en": "Book now",
+          "ar": "احجز الآن"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1611,9 +1616,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nereye gidiyoruz?",
-          "en": "Where are we going?",
-          "ar": "أين نتجه؟"
+          "tr": "Otelimiz rakamlarla",
+          "en": "Our hotel in numbers",
+          "ar": "فندقنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1623,13 +1628,13 @@
       },
       "data": [
         {
-          "deger": 30,
+          "deger": 24,
           "sonek": "",
-          "ikon": "travel",
+          "ikon": "bed",
           "etiket": {
-            "tr": "Rota",
-            "en": "Routes",
-            "ar": "مسارات"
+            "tr": "Oda",
+            "en": "Rooms",
+            "ar": "غرفة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1638,13 +1643,13 @@
           }
         },
         {
-          "deger": 12,
+          "deger": 24,
           "sonek": "",
-          "ikon": "local_see",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Otel",
-            "en": "Hotels",
-            "ar": "فنادق"
+            "tr": "Saat resepsiyon",
+            "en": "Hours of reception",
+            "ar": "ساعة استقبال"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1653,13 +1658,13 @@
           }
         },
         {
-          "deger": 95,
-          "sonek": "%",
-          "ikon": "group_work",
+          "deger": 3,
+          "sonek": "",
+          "ikon": "hotel",
           "etiket": {
-            "tr": "Ziyaret memnuniyeti",
-            "en": "Visit satisfaction",
-            "ar": "رضاء الزيارة"
+            "tr": "Oda tipi",
+            "en": "Room types",
+            "ar": "أنواع الغرف"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1668,13 +1673,13 @@
           }
         },
         {
-          "deger": 250,
+          "deger": 6,
           "sonek": "",
           "ikon": "map",
           "etiket": {
-            "tr": "Yıl",
-            "en": "Year",
-            "ar": "سنة"
+            "tr": "Önerilen rota",
+            "en": "Suggested routes",
+            "ar": "مسارات مقترحة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1705,98 +1710,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Gezi & Rota",
-          "en": "Tour & Route",
-          "ar": "جول ومسار"
+          "tr": "Konaklama",
+          "en": "Your stay",
+          "ar": "الإقامة"
         },
         "title": {
-          "tr": "Nereye gidiyoruz?",
-          "en": "Where are we going?",
-          "ar": "أين نتجه؟"
+          "tr": "Misafirlik, sahilde",
+          "en": "A stay by the shore",
+          "ar": "إقامة على الشاطئ"
         },
         "description": {
-          "tr": "Talepten röportaja; yerden dönüş.",
-          "en": "From request to talk; from place to return.",
-          "ar": "من الطلب إلى الحديث؛ من المكان إلى العودة."
+          "tr": "Oda, kahvaltı, havuz ve çevre rotalar tek yerde.",
+          "en": "Rooms, breakfast, the pool and local routes in one place.",
+          "ar": "الغرف والفطور والمسبح والجولات المحيطة في مكان واحد."
         }
       },
       "data": [
         {
-          "icon": "travel",
+          "icon": "bed",
           "name": {
-            "tr": "Rota",
-            "en": "Route",
-            "ar": "المسار"
+            "tr": "Odalar",
+            "en": "Rooms",
+            "ar": "الغرف"
           },
           "description": {
-            "tr": "Şehir ve kıyı rotası.",
-            "en": "City and coast route.",
-            "ar": "مسار مدينة وساحل."
-          }
-        },
-        {
-          "icon": "local_see",
-          "name": {
-            "tr": "Otel ve konaklama",
-            "en": "Hotel and lodging",
-            "ar": "فندق وإقامة"
-          },
-          "description": {
-            "tr": "Otel ve pansiyon (demo).",
-            "en": "Hotel and pension (demo).",
-            "ar": "فندق ونزل (تجريبي)."
-          }
-        },
-        {
-          "icon": "train",
-          "name": {
-            "tr": "Ulaşım",
-            "en": "Transportation",
-            "ar": "النقل"
-          },
-          "description": {
-            "tr": "Otobüs ve minibüs (demo).",
-            "en": "Bus and minibus (demo).",
-            "ar": "حافلة ومينيباص (تجريبي)."
-          }
-        },
-        {
-          "icon": "map",
-          "name": {
-            "tr": "Yer listesi",
-            "en": "Place list",
-            "ar": "قائمة أماكن"
-          },
-          "description": {
-            "tr": "Bölge ve durak listesi.",
-            "en": "Region and stop list.",
-            "ar": "قائمة منطقة ومحطة."
+            "tr": "Sade, ferah ve sessiz üç oda tipi.",
+            "en": "Three simple, airy and quiet room types.",
+            "ar": "ثلاثة أنواع من الغرف البسيطة الواسعة الهادئة."
           }
         },
         {
           "icon": "restaurant",
           "name": {
-            "tr": "Yeme içme",
-            "en": "Food and drink",
-            "ar": "أطعمة ومشروبات"
+            "tr": "Serpme kahvaltı",
+            "en": "Breakfast spread",
+            "ar": "فطور مفتوح"
           },
           "description": {
-            "tr": "Mekan ve menü önerisi.",
-            "en": "Venue and menu suggestion.",
-            "ar": "مقترح مكان وقائمة."
+            "tr": "Yerel zeytin, bal ve taze ekmekle sofra.",
+            "en": "A table of local olives, honey and fresh bread.",
+            "ar": "مائدة من الزيتون المحلي والعسل والخبز الطازج."
           }
         },
         {
-          "icon": "group_work",
+          "icon": "pool",
           "name": {
-            "tr": "Grup",
-            "en": "Group",
-            "ar": "المجموعة"
+            "tr": "Havuz ve bahçe",
+            "en": "Pool and garden",
+            "ar": "المسبح والحديقة"
           },
           "description": {
-            "tr": "Grup ve aile (demo).",
-            "en": "Group and family (demo).",
-            "ar": "مجموعة وأسرة (تجريبي)."
+            "tr": "Zeytin ağaçları altında açık havuz ve şezlonglar.",
+            "en": "An outdoor pool and sun loungers under olive trees.",
+            "ar": "مسبح مكشوف ومقاعد استلقاء تحت أشجار الزيتون."
+          }
+        },
+        {
+          "icon": "airport_shuttle",
+          "name": {
+            "tr": "Transfer",
+            "en": "Transfers",
+            "ar": "النقل"
+          },
+          "description": {
+            "tr": "Havalimanı ve şehir içi transfer, talep üzerine.",
+            "en": "Airport and city transfers on request.",
+            "ar": "نقل من المطار وداخل المدينة عند الطلب."
+          }
+        },
+        {
+          "icon": "map",
+          "name": {
+            "tr": "Gezi ve rota önerileri",
+            "en": "Trips and route tips",
+            "ar": "اقتراحات الجولات والمسارات"
+          },
+          "description": {
+            "tr": "Çevredeki tarihî ve doğal rotalar için kısa öneriler.",
+            "en": "Short tips on nearby historic and natural routes.",
+            "ar": "اقتراحات موجزة للمسارات التاريخية والطبيعية القريبة."
+          }
+        },
+        {
+          "icon": "groups",
+          "name": {
+            "tr": "Grup ve etkinlik",
+            "en": "Groups and events",
+            "ar": "المجموعات والفعاليات"
+          },
+          "description": {
+            "tr": "Aile buluşması, küçük toplantı ve grup konaklaması.",
+            "en": "Family gatherings, small meetings and group stays.",
+            "ar": "لقاءات عائلية واجتماعات صغيرة وإقامة مجموعات."
           }
         }
       ],
@@ -1824,19 +1829,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Konaklamanız",
+          "en": "Your stay",
+          "ar": "إقامتك"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda konaklama",
+          "en": "Your stay in four steps",
+          "ar": "إقامتك في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Rezervasyondan çıkışa kadar.",
+          "en": "From booking to check-out.",
+          "ar": "من الحجز إلى المغادرة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1846,53 +1851,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Talep",
-            "en": "Request",
-            "ar": "الطلب"
+            "tr": "Rezervasyon",
+            "en": "Booking",
+            "ar": "الحجز"
           },
           "text": {
-            "tr": "Tarih ve kişi sayısı.",
-            "en": "Date and number of people.",
-            "ar": "تاريخ وعدد أشخاص."
+            "tr": "Tarih ve oda tipini seçin.",
+            "en": "Choose your dates and room type.",
+            "ar": "اختر التواريخ ونوع الغرفة."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Plan",
-            "en": "Plan",
-            "ar": "الخطة"
+            "tr": "Karşılama",
+            "en": "Check-in",
+            "ar": "الاستقبال"
           },
           "text": {
-            "tr": "Rota ve durak seçimi.",
-            "en": "Route and stop selection.",
-            "ar": "اختيار مسار ومحطة."
+            "tr": "Resepsiyonda kayıt ve oda teslimi.",
+            "en": "Registration and room handover at reception.",
+            "ar": "التسجيل وتسليم الغرفة في الاستقبال."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Yol",
-            "en": "Journey",
-            "ar": "الرحلة"
+            "tr": "Konaklama",
+            "en": "Your stay",
+            "ar": "الإقامة"
           },
           "text": {
-            "tr": "Ulaşım ve yer teslimi.",
-            "en": "Transportation and venue handover.",
-            "ar": "نقل وتسليم مكان."
+            "tr": "Kahvaltı, havuz ve çevre rotalar.",
+            "en": "Breakfast, the pool and local routes.",
+            "ar": "الفطور والمسبح والمسارات المحيطة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Döngü",
-            "en": "Loop",
-            "ar": "الدورة"
+            "tr": "Çıkış",
+            "en": "Check-out",
+            "ar": "المغادرة"
           },
           "text": {
-            "tr": "Dönüş ve yorum.",
-            "en": "Return and comment.",
-            "ar": "عودة وتعليق."
+            "tr": "Hesap kapatma ve isterseniz transfer.",
+            "en": "Settling the bill and, if you wish, a transfer.",
+            "ar": "تسوية الحساب والنقل إن رغبت."
           }
         }
       ],
@@ -1921,14 +1926,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Otel ekibi",
+          "en": "Hotel team",
+          "ar": "فريق الفندق"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi karşılayanlar",
+          "en": "Who will welcome you",
+          "ar": "من سيستقبلك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1942,42 +1947,42 @@
         {
           "name": "Aylin D.",
           "role": {
-            "tr": "Rehber",
-            "en": "Tour guide",
-            "ar": "مرشد"
+            "tr": "Resepsiyon müdürü",
+            "en": "Front desk manager",
+            "ar": "مديرة الاستقبال"
           },
           "bio": {
-            "tr": "9 yıl rota.",
-            "en": "9 years of routes.",
-            "ar": "٩ سنوات في المسارات."
+            "tr": "Karşılama ve rezervasyonda 10 yıl.",
+            "en": "10 years in guest welcome and bookings.",
+            "ar": "10 سنوات في استقبال الضيوف والحجوزات."
           },
           "img": ""
         },
         {
           "name": "Murat K.",
           "role": {
-            "tr": "Ulaşım",
-            "en": "Transport coordinator",
-            "ar": "نقل"
+            "tr": "Transfer ve gezi",
+            "en": "Transfers and trips",
+            "ar": "النقل والجولات"
           },
           "bio": {
-            "tr": "7 yıl araç.",
-            "en": "7 years of vehicles.",
-            "ar": "٧ سنوات في المركبات."
+            "tr": "Transfer planı ve rota önerilerinde 6 yıl.",
+            "en": "6 years planning transfers and route tips.",
+            "ar": "6 سنوات في تخطيط النقل واقتراح المسارات."
           },
           "img": ""
         },
         {
           "name": "Figen S.",
           "role": {
-            "tr": "Yanıt",
-            "en": "Guest relations",
-            "ar": "رد"
+            "tr": "Mutfak şefi",
+            "en": "Head chef",
+            "ar": "رئيسة الطهاة"
           },
           "bio": {
-            "tr": "4 yıl talep.",
-            "en": "4 years of requests.",
-            "ar": "٤ سنوات في الطلبات."
+            "tr": "Kahvaltı ve yerel mutfakta 8 yıl.",
+            "en": "8 years in breakfast and local cuisine.",
+            "ar": "8 سنوات في الفطور والمطبخ المحلي."
           },
           "img": ""
         }
@@ -2008,14 +2013,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Misafir yorumları",
+          "en": "Guest reviews",
+          "ar": "آراء الضيوف"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Misafirlerimiz ne diyor?",
+          "en": "What our guests say",
+          "ar": "ماذا يقول ضيوفنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2029,16 +2034,16 @@
         {
           "name": "L. Öztürk.",
           "role": {
-            "tr": "Ziyaretçi",
-            "en": "Visitor",
-            "ar": "زائر"
+            "tr": "Misafir",
+            "en": "Guest",
+            "ar": "ضيف"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Rota zamanında; durak düzenli.",
-            "en": "Route on time; stop regular.",
-            "ar": "مسار في وقت؛ محطة منتظمة."
+            "tr": "Oda sessiz ve temizdi; kahvaltı yerel ürünlerle zengindi.",
+            "en": "The room was quiet and clean; breakfast was rich with local produce.",
+            "ar": "كانت الغرفة هادئة ونظيفة، والفطور غنيًا بالمنتجات المحلية."
           }
         },
         {
@@ -2046,29 +2051,29 @@
           "role": {
             "tr": "Aile",
             "en": "Family",
-            "ar": "أسرة"
+            "ar": "عائلة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Otel ve menü uyumlu.",
-            "en": "Hotel and menu compatible.",
-            "ar": "فندق وقائمة متوافقة."
+            "tr": "Çocuklar havuzu sevdi; resepsiyon her konuda yardımcı oldu.",
+            "en": "The children loved the pool; reception helped with everything.",
+            "ar": "أحب الأطفال المسبح، وساعدنا الاستقبال في كل شيء."
           }
         },
         {
           "name": "E. Şahin.",
           "role": {
-            "tr": "Grup",
-            "en": "Tour group",
-            "ar": "مجموعة"
+            "tr": "Grup organizatörü",
+            "en": "Group organiser",
+            "ar": "منظّم مجموعة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Ulaşım bilgiyi düzenli alıyoruz.",
-            "en": "We regularly receive transportation information.",
-            "ar": "نستلم معلومات النقل بانتظام."
+            "tr": "Küçük grubumuz için oda ve transferi tek seferde planladılar.",
+            "en": "They planned rooms and transfers for our small group in one go.",
+            "ar": "خطّطوا الغرف والنقل لمجموعتنا الصغيرة دفعة واحدة."
           }
         }
       ],
@@ -2113,19 +2118,19 @@
         "radius": "12px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Otelde",
+          "en": "At the hotel",
+          "ar": "في الفندق"
         },
         "title": {
-          "tr": "Nereye gidiyoruz?",
-          "en": "Where are we going?",
-          "ar": "أين نتجه؟"
+          "tr": "Kahvaltı, resepsiyon ve oda",
+          "en": "Breakfast, reception and rooms",
+          "ar": "الفطور والاستقبال والغرف"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusal bir demodur.",
+          "en": "Images are representative; the content is a fictional demo.",
+          "ar": "الصور تمثيلية والمحتوى عرض تجريبي افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2136,14 +2141,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Rota",
-            "en": "Route",
-            "ar": "المسار"
+            "tr": "Odalar",
+            "en": "Rooms",
+            "ar": "الغرف"
           },
           "metin": {
-            "tr": "Şehir ve kıyı rotası.",
-            "en": "City and coast route.",
-            "ar": "مسار مدينة وساحل."
+            "tr": "Sade, ferah ve sessiz üç oda tipi.",
+            "en": "Three simple, airy and quiet room types.",
+            "ar": "ثلاثة أنواع من الغرف البسيطة الواسعة الهادئة."
           },
           "img": "otel-kahvalti.webp",
           "alt": {
@@ -2155,14 +2160,14 @@
         },
         {
           "baslik": {
-            "tr": "Otel ve konaklama",
-            "en": "Hotel and lodging",
-            "ar": "فندق وإقامة"
+            "tr": "Serpme kahvaltı",
+            "en": "Breakfast spread",
+            "ar": "فطور مفتوح"
           },
           "metin": {
-            "tr": "Otel ve pansiyon (demo).",
-            "en": "Hotel and pension (demo).",
-            "ar": "فندق ونزل (تجريبي)."
+            "tr": "Yerel zeytin, bal ve taze ekmekle sofra.",
+            "en": "A table of local olives, honey and fresh bread.",
+            "ar": "مائدة من الزيتون المحلي والعسل والخبز الطازج."
           },
           "img": "otel-resepsiyon.webp",
           "alt": {
@@ -2174,14 +2179,14 @@
         },
         {
           "baslik": {
-            "tr": "Ulaşım",
-            "en": "Transportation",
-            "ar": "النقل"
+            "tr": "Havuz ve bahçe",
+            "en": "Pool and garden",
+            "ar": "المسبح والحديقة"
           },
           "metin": {
-            "tr": "Otobüs ve minibüs (demo).",
-            "en": "Bus and minibus (demo).",
-            "ar": "حافلة ومينيباص (تجريبي)."
+            "tr": "Zeytin ağaçları altında açık havuz ve şezlonglar.",
+            "en": "An outdoor pool and sun loungers under olive trees.",
+            "ar": "مسبح مكشوف ومقاعد استلقاء تحت أشجار الزيتون."
           },
           "img": "otel-oda-1.webp",
           "alt": {
@@ -2239,14 +2244,14 @@
         "radius": "12px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız iş ortakları",
+          "en": "Our travel partners",
+          "ar": "شركاؤنا في السفر"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal acente ve hizmet adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional agency and service names; they do not belong to a real organisation.",
+          "ar": "أسماء وكالات وخدمات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2256,22 +2261,22 @@
       },
       "data": [
         {
-          "name": "Demo Otel"
+          "name": "Demo Seyahat Acentesi"
         },
         {
-          "name": "Demo Rota"
+          "name": "Demo Havalimanı Transfer"
         },
         {
-          "name": "Demo Ulaşım"
+          "name": "Demo Rehberlik"
         },
         {
-          "name": "Demo Durak"
+          "name": "Demo Kültür Turları"
         },
         {
-          "name": "Demo Aile"
+          "name": "Demo Düğün Organizasyon"
         },
         {
-          "name": "Demo Ziyaret"
+          "name": "Demo Çiftlik Evi"
         }
       ],
       "veri": {
@@ -2314,51 +2319,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Giriş ve çıkış saatleri nedir?",
+            "en": "What are the check-in and check-out times?",
+            "ar": "ما موعدا الوصول والمغادرة؟"
+          },
+          "answer": {
+            "tr": "Demo değerlerle giriş 14:00, çıkış 12:00'dir; erken giriş için resepsiyona yazabilirsiniz.",
+            "en": "In this demo check-in is 14:00 and check-out 12:00; write to reception for early check-in.",
+            "ar": "في هذا العرض التجريبي الوصول 14:00 والمغادرة 12:00؛ يمكنك مراسلة الاستقبال لطلب وصول مبكر."
+          },
           "soru": {
-            "tr": "Fiyat kişi başı mı?",
-            "en": "Is the price per person?",
-            "ar": "هل السعر للفرد?"
+            "tr": "Giriş ve çıkış saatleri nedir?",
+            "en": "What are the check-in and check-out times?",
+            "ar": "ما موعدا الوصول والمغادرة؟"
           },
           "cevap": {
-            "tr": "Kişi sayısına göre değişir; demo metin örnek vermez.",
-            "en": "It varies by number of people; this demo text gives no example.",
-            "ar": "تتغير حسب عدد الأشخاص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Demo değerlerle giriş 14:00, çıkış 12:00'dir; erken giriş için resepsiyona yazabilirsiniz.",
+            "en": "In this demo check-in is 14:00 and check-out 12:00; write to reception for early check-in.",
+            "ar": "في هذا العرض التجريبي الوصول 14:00 والمغادرة 12:00؛ يمكنك مراسلة الاستقبال لطلب وصول مبكر."
           }
         },
         {
+          "question": {
+            "tr": "Kahvaltı oda fiyatına dahil mi?",
+            "en": "Is breakfast included in the room rate?",
+            "ar": "هل الفطور مشمول في سعر الغرفة؟"
+          },
+          "answer": {
+            "tr": "Bu demo metindir; gerçek bir otelde kahvaltı bilgisi rezervasyonda açıkça yazılır.",
+            "en": "This is demo text; a real hotel states breakfast terms clearly at booking.",
+            "ar": "هذا نص تجريبي؛ وفي فندق حقيقي تُذكر شروط الفطور بوضوح عند الحجز."
+          },
           "soru": {
-            "tr": "Kısa gezi var mı?",
-            "en": "Is there a short tour?",
-            "ar": "هل يوجد جول قصير?"
+            "tr": "Kahvaltı oda fiyatına dahil mi?",
+            "en": "Is breakfast included in the room rate?",
+            "ar": "هل الفطور مشمول في سعر الغرفة؟"
           },
           "cevap": {
-            "tr": "Yarım günü; tarih ve sezon değişir.",
-            "en": "Half a day; date and season vary.",
-            "ar": "نصف يوم؛ التاريخ والموسم يتغيران."
+            "tr": "Bu demo metindir; gerçek bir otelde kahvaltı bilgisi rezervasyonda açıkça yazılır.",
+            "en": "This is demo text; a real hotel states breakfast terms clearly at booking.",
+            "ar": "هذا نص تجريبي؛ وفي فندق حقيقي تُذكر شروط الفطور بوضوح عند الحجز."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Sezona, oda tipine ve kalış süresine göre belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices depend on season, room type and length of stay; no general range is shown in this demo.",
+            "ar": "تعتمد الأسعار على الموسم ونوع الغرفة ومدة الإقامة؛ ولا يُذكر نطاق عام في هذا العرض."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Sezona, oda tipine ve kalış süresine göre belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices depend on season, room type and length of stay; no general range is shown in this demo.",
+            "ar": "تعتمد الأسعار على الموسم ونوع الغرفة ومدة الإقامة؛ ولا يُذكر نطاق عام في هذا العرض."
           }
         }
       ],
@@ -2416,14 +2461,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "12px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Rezervasyon talebi",
+          "en": "Booking request",
+          "ar": "طلب حجز"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Tarih ve kişi sayısını yazın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us your dates and number of guests; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب التواريخ وعدد الضيوف؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Otel Sahil",
@@ -2431,9 +2476,9 @@
           "ar": "Otel Sahil"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
           "tr": "Sahil Bulvarı No: 66, Şahinbey, Gaziantep (kurgusal adres)",
@@ -2487,9 +2532,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Rezervasyon formu",
+          "en": "Booking form",
+          "ar": "نموذج الحجز"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2520,25 +2565,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Oda rezervasyonu",
+              "en": "Room booking",
+              "ar": "حجز غرفة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Grup konaklaması",
+              "en": "Group stay",
+              "ar": "إقامة مجموعة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Transfer",
+              "en": "Transfer",
+              "ar": "نقل"
             }
           },
           {
@@ -2625,7 +2670,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2649,32 +2695,32 @@
           "ar": "Otel Sahil"
         },
         "description": {
-          "tr": "Otel Sahil, konaklama ve kahvaltı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Otel Sahil offers stay and breakfast. Images are representative and text is fictional.",
-          "ar": "يقدم فندق ساحل إقامة وفطور. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Otel Sahil; sakin odaları, bahçe havuzu ve yerel kahvaltısıyla küçük ölçekli kurgusal bir otel örneğidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Otel Sahil is a small fictional hotel with quiet rooms, a garden pool and a local breakfast. Images are representative and text is fictional.",
+          "ar": "أوتيل ساحل فندق افتراضي صغير بغرف هادئة ومسبح في الحديقة وفطور محلي. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Durak",
-          "en": "The stop",
-          "ar": "المحطة"
+          "tr": "Havuz ve bahçe",
+          "en": "Pool and garden",
+          "ar": "المسبح والحديقة"
         },
         "spot2": {
-          "tr": "Yükleme ve yol bilgi noktası.",
-          "en": "Loading and journey information point.",
-          "ar": "نقطة تحميل ومعلومات رحلة."
+          "tr": "Zeytin gölgesinde şezlong ve açık havuz.",
+          "en": "Loungers and an outdoor pool in the olive shade.",
+          "ar": "مقاعد استلقاء ومسبح مكشوف في ظل الزيتون."
         },
-        "icon2": "verified",
+        "icon2": "pool",
         "name3": {
-          "tr": "Rota defteri",
-          "en": "Route book",
-          "ar": "دفتر المسارات"
+          "tr": "Kahvaltı sofrası",
+          "en": "Breakfast table",
+          "ar": "مائدة الفطور"
         },
         "spot3": {
-          "tr": "Her rota için zaman ve durak kaydı.",
-          "en": "A time and stop record for each route.",
-          "ar": "سجل وقت ومحطة لكل مسار."
+          "tr": "Yerel zeytin, bal ve taze ekmek.",
+          "en": "Local olives, honey and fresh bread.",
+          "ar": "زيتون محلي وعسل وخبز طازج."
         },
-        "icon3": "schedule",
+        "icon3": "restaurant",
         "img": "otel-havuz.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2763,9 +2809,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Resepsiyon 24 saat",
+          "en": "Reception 24 hours",
+          "ar": "الاستقبال ٢٤ ساعة"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2857,25 +2903,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "12px",
         "title": {
-          "tr": "Sahilde bekliyoruz",
-          "en": "Waiting on the coast",
-          "ar": "ننتظرك على الساحل"
+          "tr": "Tatiliniz için yer ayıralım",
+          "en": "Let us reserve your stay",
+          "ar": "لنحجز لك إقامتك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Rezervasyon talebiniz için iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "We reply to your booking request within two business days. No data is stored on this demo site.",
+          "ar": "نردّ على طلب حجزك خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Rezervasyon talebi",
+          "en": "Booking request",
+          "ar": "طلب حجز"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Odaları gör",
+          "en": "See rooms",
+          "ar": "شاهد الغرف"
         },
         "btn2Url": "hizmetler",
         "number": "903420200114",

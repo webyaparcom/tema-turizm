@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Konaklama ve kahvaltı; görseller temsilîdir.",
-    "en": "Stay and breakfast; images are representative.",
-    "ar": "إقامة وفطور؛ الصور تمثيلية."
+    "tr": "Konaklama ve kahvaltı; sakin odalar ve bahçe havuzu. Görseller temsilîdir.",
+    "en": "Stay and breakfast; quiet rooms and a garden pool. Images are representative.",
+    "ar": "إقامة وفطور؛ غرف هادئة ومسبح في الحديقة. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "otel, tatil, konaklama",
-    "en": "hotel, vacation, stay",
-    "ar": "فندق، إجازة، إقامة"
+    "tr": "otel, konaklama, kahvaltı, havuz, rezervasyon",
+    "en": "hotel, accommodation, breakfast, pool, booking",
+    "ar": "فندق، إقامة، فطور، مسبح، حجز"
   },
   "category": "Kurumsal",
   "name": "Otel Sahil",

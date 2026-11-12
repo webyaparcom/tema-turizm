@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Talepten röportaja; yerden dönüş.",
-    "en": "From request to talk; from place to return.",
-    "ar": "من الطلب إلى الحديث؛ من المكان إلى العودة."
+    "tr": "Oda, kahvaltı, havuz ve çevre rotalar tek yerde.",
+    "en": "Rooms, breakfast, the pool and local routes in one place.",
+    "ar": "الغرف والفطور والمسبح والجولات المحيطة في مكان واحد."
   },
   "keyword": {
-    "tr": "Gezi & Rota",
-    "en": "Tour & Route",
-    "ar": "جول ومسار"
+    "tr": "Konaklama",
+    "en": "Your stay",
+    "ar": "الإقامة"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:42.640Z",
-  "update": "2026-11-05T23:44:49.120Z"
+  "update": "2026-11-12T07:36:59.409Z"
 }
